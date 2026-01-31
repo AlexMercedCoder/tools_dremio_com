@@ -1,0 +1,287 @@
+/* CSS Reset and Base Styles */
+:root {
+  --primary-color: #05263a; /* Navy Blue */
+  --secondary-color: #00BFA5; /* Emerald Green */
+  --text-color: #333;
+  --bg-color: #f4f6f8;
+  --card-bg: #ffffff;
+  --warning-bg: #fff3cd;
+  --warning-text: #856404;
+  --font-main: 'Roboto', sans-serif;
+  --transition-speed: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layout Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-brand span {
+  color: var(--secondary-color);
+}
+
+.btn-nav {
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all var(--transition-speed);
+}
+
+.btn-nav:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, #1a4b6e 100%);
+  color: white;
+  padding: 4rem 0 6rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=');
+  opacity: 0.3;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+/* Disclaimer Band */
+.disclaimer-band {
+  background-color: var(--warning-bg);
+  color: var(--warning-text);
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid #ffeeba;
+  font-weight: 500;
+}
+
+/* Tools Grid */
+.tools-section {
+  padding: 4rem 0;
+  margin-top: -3rem; /* Overlap hero */
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tool-card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid var(--secondary-color);
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.tool-category {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 700;
+}
+
+.tool-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tool-card p {
+  color: #555;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.btn-card {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color var(--transition-speed);
+}
+
+.btn-card:hover {
+  background-color: #34495e;
+}
+
+/* Slack CTA */
+.slack-cta {
+  background-color: white;
+  padding: 4rem 0;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.slack-box {
+  background: linear-gradient(to right, #4A154B, #611f69); /* Slack colorsish */
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(74, 21, 75, 0.2);
+}
+
+.slack-box h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.btn-slack {
+  display: inline-block;
+  background-color: white;
+  color: #4A154B;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  transition: transform var(--transition-speed);
+}
+
+.btn-slack:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-color);
+  color: rgba(255,255,255,0.7);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+/* Disclaimer Badge in Card */
+.support-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  background-color: #ffeeba;
+  color: #856404;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+
+/* Badge for different tools */
+.badge-python { background-color: #e3f2fd; color: #0d47a1; }
+.badge-js { background-color: #fff3e0; color: #ef6c00; }
+.badge-ai { background-color: #f3e5f5; color: #7b1fa2; }
+.badge-sql { background-color: #e8f5e9; color: #2e7d32; }
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .tools-section {
+    padding: 2rem 0;
+    margin-top: 0;
+  }
+}
