@@ -72,6 +72,11 @@ a {
   color: var(--secondary-color);
 }
 
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
 .btn-nav {
   background-color: transparent;
   border: 1px solid var(--secondary-color);
@@ -126,14 +131,23 @@ a {
   margin-bottom: 2rem;
 }
 
-/* Disclaimer Band */
-.disclaimer-band {
+/* Section Header & Disclaimer */
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.community-disclaimer {
   background-color: var(--warning-bg);
   color: var(--warning-text);
-  padding: 1rem 0;
-  text-align: center;
-  border-bottom: 1px solid #ffeeba;
-  font-weight: 500;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ffeeba;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 /* Tools Grid */
