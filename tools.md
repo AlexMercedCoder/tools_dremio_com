@@ -1,10 +1,11 @@
 ## Python Libraries
 - [dremio-simple-query](https://github.com/developer-advocacy-dremio/dremio_simple_query)
 - [dremioframe](https://github.com/developer-advocacy-dremio/dremio-cloud-dremioframe)
-- [dremio-cli](https://github.com/developer-advocacy-dremio/dremio-python-cli)
+- [dremio-python-cli](https://github.com/developer-advocacy-dremio/dremio-python-cli): A Python CLI for Dremio.
+- [dremio-local-mcp](https://github.com/AlexMercedCoder/dremio-local-mcp): Unofficial Python MCP Server for Dremio.
 
-## Javascript Libraries
-- [dremiojs](https://github.com/developer-advocacy-dremio/dremiojs)
+### Javascript
+- [dremiojs](https://github.com/developer-advocacy-dremio/dremiojs): A Javascript SDK for Dremio.
 
 ## AI Coding Assistant Tools
 - [Dremio Agent Skill](https://github.com/developer-advocacy-dremio/dremio-agent-skill)
