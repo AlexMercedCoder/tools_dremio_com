@@ -216,6 +216,22 @@ a {
   background-color: #34495e;
 }
 
+.install-command {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  color: #d63384;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  cursor: text;
+  user-select: all;
+}
+
 /* Slack CTA */
 .slack-cta {
   background-color: white;
