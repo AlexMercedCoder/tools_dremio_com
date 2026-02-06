@@ -304,6 +304,7 @@ a {
 .badge-js { background-color: #fff3e0; color: #ef6c00; }
 .badge-ai { background-color: #f3e5f5; color: #7b1fa2; }
 .badge-sql { background-color: #e8f5e9; color: #2e7d32; }
+.badge-workflow { background-color: #e0f7fa; color: #006064; }
 /* Official Tools Section */
 .official-section {
   background-color: var(--primary-color);
