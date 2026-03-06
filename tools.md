@@ -12,6 +12,7 @@
 ## AI Coding Assistant Tools
 - [Dremio Agent Skill](https://github.com/developer-advocacy-dremio/dremio-agent-skill)
 - [DREMIO-AGENT.MD](https://github.com/developer-advocacy-dremio/dremio-agent-md)
+- [dremio-skills-bundle](https://github.com/developer-advocacy-dremio/dremio-skills-bundle): Curated AI agent skills for Dremio.
 
 ## Official Dremio Tools
 - [dbt-dremio](https://github.com/dremio/dbt-dremio)
