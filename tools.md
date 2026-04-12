@@ -1,7 +1,7 @@
 ## Python Libraries
 - [dremio-simple-query](https://github.com/developer-advocacy-dremio/dremio_simple_query)
 - [dremioframe](https://github.com/developer-advocacy-dremio/dremio-cloud-dremioframe)
-- [dremio-python-cli](https://github.com/developer-advocacy-dremio/dremio-python-cli): A Python CLI for Dremio.
+- [alt-dremio-cli](https://github.com/developer-advocacy-dremio/dremio-python-cli): Community fork of the Dremio CLI.
 - [dremio-local-mcp](https://github.com/AlexMercedCoder/dremio-local-mcp): Unofficial Python MCP Server for Dremio.
 - [pydremio](https://github.com/continental/pydremio): Python SDK by Continental for Dremio.
 
@@ -18,6 +18,7 @@
 - [dbt-dremio](https://github.com/dremio/dbt-dremio)
 - [claude-plugins](https://github.com/dremio/claude-plugins): Official Claude Code plugins for Dremio.
 - [@dremio/js-sdk](https://www.npmjs.com/package/@dremio/js-sdk): Official Dremio JavaScript/TypeScript SDK.
+- [dremio-cli](https://github.com/dremio/cli): Official Developer CLI for Dremio Cloud — query, catalog, schema, reflections, jobs, and AI agent skills.
 
 ## Sample Code and Reference
 - [dremio-examples](https://github.com/developer-advocacy-dremio/dremio-examples)
