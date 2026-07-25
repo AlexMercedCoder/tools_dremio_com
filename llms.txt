@@ -1,0 +1,30 @@
+# Dremio Community Tools
+
+> A curated catalog of community-maintained and official tools, SDKs, libraries, and AI-agent resources for the Dremio Data Lakehouse. Maintained by Alex Merced (Dremio Developer Relations).
+
+URL: https://tools.choosedremio.com/
+
+## Python Libraries
+- [dremio-simple-query](https://github.com/developer-advocacy-dremio/dremio_simple_query): Effortless analytics with Arrow Flight — connect Pandas, Polars, and DuckDB to Dremio.
+- [dremioframe](https://github.com/developer-advocacy-dremio/dremio-cloud-dremioframe): DataFrame API for the lakehouse; manage catalog, reflections, and data as code.
+- [alt-dremio-cli](https://github.com/developer-advocacy-dremio/dremio-python-cli): Community fork of the Dremio CLI with 100% API coverage for GitOps and automation.
+- [dremio-local-mcp](https://github.com/AlexMercedCoder/dremio-local-mcp): Unofficial Python MCP Server for Dremio.
+- [pydremio](https://github.com/continental/pydremio): Python SDK by Continental for Dremio.
+
+## JavaScript
+- [dremiojs](https://github.com/developer-advocacy-dremio/dremiojs): Type-safe JavaScript SDK for Dremio.
+- [dremio-n8n-connector](https://github.com/developer-advocacy-dremio/dremio-n8n-connector): n8n Community Node for Dremio.
+
+## AI Coding Assistant Tools
+- [Dremio Agent Skill](https://github.com/developer-advocacy-dremio/dremio-agent-skill): AI coding context and skills for Claude Code, Cursor, and others.
+- [DREMIO-AGENT.MD](https://github.com/developer-advocacy-dremio/dremio-agent-md): Agent instructions file for Dremio-aware AI coding.
+- [dremio-skills-bundle](https://github.com/developer-advocacy-dremio/dremio-skills-bundle): Curated AI agent skills for Dremio.
+
+## Official Dremio Tools
+- [dbt-dremio](https://github.com/dremio/dbt-dremio)
+- [claude-plugins](https://github.com/dremio/claude-plugins)
+- [@dremio/js-sdk](https://www.npmjs.com/package/@dremio/js-sdk)
+- [dremio-cli](https://github.com/dremio/cli)
+
+## Sample Code
+- [dremio-examples](https://github.com/developer-advocacy-dremio/dremio-examples)
